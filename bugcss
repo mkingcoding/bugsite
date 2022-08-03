@@ -1,0 +1,129 @@
+.logo {
+    height: 2vw;
+    display: flex;
+    padding: 0;
+    margin: 0;
+ }
+ header {
+    display: flex;
+    flex-direction: row;
+    background-color: #6d9B68;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    padding: 0vw;
+    margin: vw;
+    width: 100%;
+    left: 0;
+    overflow:hidden;
+ }
+ h1 {
+    font-size: 25px;
+    margin-right: 200px;
+ }
+ #nav-bar {
+    margin-left: 45vw;
+    text-align: center;
+    margin-right: 0px;
+    right: 0;
+ }
+ .nav-item {
+    list-style: none;
+    font-size: 24px;
+    display: inline;
+    justify-content: space-between;
+    margin: 50px;
+    color: white;
+ }
+ body {
+    background-color: #E0CFB0
+ }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: black;
+}
+h2, #caption, form {
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    margin-top: 5vw;
+}
+#caption {
+    font-size: 20px;
+}
+#submit {
+    background-color: saddlebrown;
+}
+div {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 90px;
+}
+p {
+    padding-left: 30vw;
+    padding-right: 30vw;
+}
+.imagegrid {
+    display: flex;
+    align-items: row;
+    justify-content: space-evenly;
+    height: 20vw;
+    width: 100%;
+}
+.benefits {
+    list-style: none;
+    margin-top: 2vw;
+}
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.gallons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border: 3px dotted saddlebrown;
+    width: 25vw;
+    background-color:#6d9B68;
+    border-radius: 10px;
+}
+.money{
+    font-size: 2vw;
+    background-color:#3b7435;
+    border-radius: 35px;
+    color: rgb(207, 209, 208);
+    border-radius: 50px;
+    border: 10px solid #3b7435;
+    margin-bottom: 1vw;
+    margin-top: 0;
+}
+.gallontype{
+    font-size: 4vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+ol {
+    list-style: none;
+    text-align:left;
+    margin-right: 2vw;
+    margin-top: 0;
+}
+.btn {
+    height: 60px;
+    padding: 0 20px;
+    width: 30%;
+    background-color: saddlebrown;
+    border-radius: 10px;
+    font-size: 1.2vw;
+    font-family:fantasy
+}
+.btn:hover {
+    cursor:pointer
+}
